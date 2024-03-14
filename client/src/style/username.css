@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form{
+    padding: 70px;
+    background-color:rgb(227, 224, 224);
+    border-radius: 10px;
+    
+}
+
+.title{
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: bolder;
+    
+}
+
+.desc{
+    width: 150px;
+    text-align: center;
+    margin: 10px auto;
+    color: rgb(117, 116, 116);
+    
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circular-image {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+.inp{
+    width: 100%;
+    margin: 10px;
+    border: solid transparent 1px;
+    border-radius: 5px;
+    height: 35px;
+}
+.btn{
+    width: 100px;
+    color: white;
+    height: 50px;
+    border-radius: 15px;
+    background-color: aqua;
+}
+
+.btn:hover{
+    background-color: aquamarine;
+}
